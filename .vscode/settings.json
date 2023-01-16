@@ -1,0 +1,48 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "Lokal",
+            "database": "Dictionary",
+            "username": "root",
+            "password": "MyverystrongPassword22_"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true,
+                "instanceName": "asdf"
+            },
+            "previewLimit": 50,
+            "server": "172.16.62.150",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "adsf",
+            "database": "test",
+            "username": "SA"
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 1433,
+            "askForPassword": true,
+            "driver": "MSSQL",
+            "name": "localasdf",
+            "username": "SA",
+            "database": "model"
+        }
+    ]
+}
